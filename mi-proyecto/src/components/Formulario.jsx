@@ -11,10 +11,10 @@ function Formulario() {
         <CampoInput label="Fecha" type="date" />
         <CampoInput label="Hora" type="time" />
 
-        <label>Sintomas</label>
-        <textarea className="u-full-width"></textarea>
+        <p>Sintomas</p>
+        <textarea class ="u-full-width"></textarea>
 
-        <button type="submit" className="u-full-width button-primary">
+        <button type="submit" class ="u-full-width button-primary">
           Agregar Cita
         </button>
       </form>

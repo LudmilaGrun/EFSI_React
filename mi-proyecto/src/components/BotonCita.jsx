@@ -1,6 +1,6 @@
 function BotonAgregarCita() {
   return (
-    <button className="agregarCita">
+    <button class ="agregarCita">
       Agregar Cita ×
     </button>
   );

@@ -2,10 +2,7 @@ function CampoInput({ label, type, placeholder }) {
   return (
     <>
       <label>{label}</label>
-      <input
-        type={type}
-        className="u-full-width"
-        placeholder={placeholder}
+      <input type={type} class ="u-full-width" placeholder={placeholder}
       />
     </>
   );

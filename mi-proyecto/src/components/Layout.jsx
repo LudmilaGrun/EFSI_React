@@ -3,14 +3,14 @@ import Listado from "./Listado";
 
 function Layout({ citas }) {
   return (
-    <div className="container">
-      <div className="row">
+    <div class ="container">
+      <div class ="row">
         
-        <div className="one-half column">
+        <div class ="one-half column">
           <Formulario />
         </div>
 
-        <div className="one-half column">
+        <div class="one-half column">
           <Listado citas={citas} />
         </div>
 

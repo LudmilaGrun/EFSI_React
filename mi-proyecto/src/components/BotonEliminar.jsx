@@ -1,6 +1,6 @@
 function BotonEliminar() {
   return (
-    <button className="eliminar">
+    <button class ="eliminar">
       Eliminar ×
     </button>
   );
