@@ -1,0 +1,21 @@
+.cita {
+  background: rgba(255,255,255,0.06);
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  transition: 0.2s;
+}
+
+.cita:hover {
+  transform: scale(1.02);
+}
+
+.cita p {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #e4e4e7;
+}
+
+.cita span {
+  color: #9ca3af;
+}

@@ -1,5 +1,6 @@
-import Formulario from "./Formulario";
-import Listado from "./Listado";
+import Formulario from "../Formulario";
+import Listado from "../Listado";
+import "./Layout.css"
 
 function Layout({ citas }) {
   return (

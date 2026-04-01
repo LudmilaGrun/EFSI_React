@@ -1,4 +1,5 @@
-import Cita from "./Cita";
+import Cita from "../Cita";
+import "./Listado.css"
 
 function Listado({ citas }) {
   return (

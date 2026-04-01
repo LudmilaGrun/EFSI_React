@@ -1,3 +1,5 @@
+import "./BotonEliminar.css"
+
 function BotonEliminar() {
   return (
     <button class ="eliminar">

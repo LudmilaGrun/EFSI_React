@@ -1,3 +1,5 @@
+import "./Campoinput.css"
+
 function CampoInput({ label, type, placeholder }) {
   return (
     <>

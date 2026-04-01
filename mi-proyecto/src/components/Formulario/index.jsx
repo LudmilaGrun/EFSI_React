@@ -1,4 +1,5 @@
-import CampoInput from "./CampoInput";
+import CampoInput from "../CampoInput";
+import "./Formulario.css"
 
 function Formulario() {
   return (

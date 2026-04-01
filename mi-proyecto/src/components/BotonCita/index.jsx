@@ -1,3 +1,5 @@
+import "./Botoncita.css"
+
 function BotonAgregarCita() {
   return (
     <button class ="agregarCita">
