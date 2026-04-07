@@ -1,3 +1,4 @@
+import BotonEliminar from "../BotonEliminar";
 import "./Cita.css"
 
 function Cita({ cita }) {
@@ -9,14 +10,13 @@ function Cita({ cita }) {
       <p>Hora: <span>{cita.hora}</span></p>
       <p>Sintomas: <span>{cita.sintomas}</span></p>
 
-      <button class ="button eliminar u-full-width">
-        Eliminar ×
-      </button>
+      <BotonEliminar/>
     </div>
   );
 }
 
 export default Cita;
+
 
 
 

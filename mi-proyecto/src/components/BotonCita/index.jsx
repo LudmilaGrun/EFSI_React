@@ -1,12 +1,11 @@
 import "./Botoncita.css"
 
-function BotonAgregarCita() {
+function BotonCita() {
   return (
-    <button class ="agregarCita">
-      Agregar Cita ×
-    </button>
+    <button type="submit"
+                      className ="u-full-width button-primary">Agregar Cita</button>
   );
 }
 
-export default BotonAgregarCita;
+export default BotonCita;
 

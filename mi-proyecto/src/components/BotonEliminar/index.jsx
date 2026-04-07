@@ -2,9 +2,7 @@ import "./BotonEliminar.css"
 
 function BotonEliminar() {
   return (
-    <button class ="eliminar">
-      Eliminar ×
-    </button>
+<button className="button elimnar u-full-width">Eliminar ×</button>
   );
 }
 

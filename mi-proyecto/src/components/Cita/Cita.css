@@ -1,21 +1,27 @@
-.cita {
-  background: rgba(255,255,255,0.06);
-  padding: 15px;
-  border-radius: 15px;
-  margin-bottom: 15px;
-  transition: 0.2s;
-}
+      .cita {
+        padding: 2rem;
+        background: white;
+        border-bottom: 1px solid #e1e1e1;
+        color: black;
+        margin-bottom: 20px;
+      }
 
-.cita:hover {
-  transform: scale(1.02);
-}
+      .cita p {
+        font-weight: bold;
+        margin-bottom: .8rem;
+      }
 
-.cita p {
-  font-size: 14px;
-  margin-bottom: 6px;
-  color: #e4e4e7;
-}
+      .cita p span {
+        font-weight: normal;
 
-.cita span {
-  color: #9ca3af;
-}
+      }
+
+      .cita:first-of-type {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+      }
+
+      .cita:last-of-type {
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+      }

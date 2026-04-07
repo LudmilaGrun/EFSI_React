@@ -1,3 +1,4 @@
+import BotonCita from "../BotonCita";
 import CampoInput from "../CampoInput";
 import "./Formulario.css"
 
@@ -12,12 +13,9 @@ function Formulario() {
         <CampoInput label="Fecha" type="date" />
         <CampoInput label="Hora" type="time" />
 
-        <p>Sintomas</p>
-        <textarea class ="u-full-width"></textarea>
+      <label>Sintomas</label><textarea name="sintomas" class="u-full-width"></textarea>
 
-        <button type="submit" class ="u-full-width button-primary">
-          Agregar Cita
-        </button>
+        <BotonCita/>
       </form>
     </>
   );
