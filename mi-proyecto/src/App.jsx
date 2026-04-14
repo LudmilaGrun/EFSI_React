@@ -3,7 +3,7 @@ import Titulo from "./components/Titulo";
 import Layout from "./components/Layout";
 
 function App() {
-  const [citas] = useState([
+  const [citas, setCitas] = useState([
     {
       id: 1,
       mascota: "Nina",
@@ -30,10 +30,18 @@ function App() {
     }
   ]);
 
+  const agregarCita = (cita) => {
+    setCitas((prev) => [...prev, cita]);
+  };
+
+  const eliminarCita = (id) => {
+    setCitas((prev) => prev.filter((c) => c.id !== id));
+  };
+
   return (
     <>
       <Titulo />
-      <Layout citas={citas} />
+      <Layout citas={citas} onAgregarCita={agregarCita} onEliminarCita={eliminarCita} />
     </>
   );
 }

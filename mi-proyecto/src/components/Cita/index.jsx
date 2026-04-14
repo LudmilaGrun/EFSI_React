@@ -1,7 +1,13 @@
 import BotonEliminar from "../BotonEliminar";
 import "./Cita.css"
 
-function Cita({ cita }) {
+function Cita({ cita, onEliminarCita }) {
+  const handleEliminar = () => {
+    if (window.confirm("¿Eliminar esta cita?")) {
+      if (onEliminarCita) onEliminarCita(cita.id);
+    }
+  };
+
   return (
     <div class="cita">
       <p>Mascota: <span>{cita.mascota}</span></p>
@@ -10,7 +16,7 @@ function Cita({ cita }) {
       <p>Hora: <span>{cita.hora}</span></p>
       <p>Sintomas: <span>{cita.sintomas}</span></p>
 
-      <BotonEliminar/>
+      <BotonEliminar onClick={handleEliminar} />
     </div>
   );
 }
